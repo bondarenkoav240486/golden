@@ -1,0 +1,171 @@
+@media screen and (max-width:992px){
+
+	html{
+		
+		font-size: 78.75%;
+	}
+}
+
+@media screen and (max-width:900px) {
+
+	.about-us ul li{
+
+		display: flex;
+		justify-content: center;
+	}
+
+	.about-us  ul li .left ,
+	.about-us  ul li .right {
+
+		width: 40%;
+	}
+
+	.about-us ul li .image {
+
+		width: 40%;
+		margin: 0 4%;
+	}
+
+	.hollow{
+
+		display: none;
+	}
+
+	section.contacts .conteiner {
+
+		flex-direction: column;
+	}
+
+	.contacts-block-1,
+	.contacts-block-2{
+
+		width: 100%;
+	}
+
+	.contacts-block-1 ul{
+
+		display: flex;
+		justify-content: center;
+	}
+
+	.contacts-block-1 ul li{
+
+		width: 30%;
+	}
+}
+
+
+@media screen and (max-width:768px){
+	html	{
+		font-size: 74.35%;
+	}
+
+	.burger-menu {
+
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	header ul{
+
+		margin-top:  6px ;
+		margin-left:  auto ;
+		display: flex;
+		flex-direction: column;
+		width: 116px;
+		text-align: left;
+		transform: translateY(-300%);
+		transition: transform 1s; 
+	}
+	
+	div.slider  div.slider-list{
+
+		width: 80%;
+	}
+
+	header ul.active{
+
+		display: flex;
+		flex-direction: column;
+		transform: translateY(0%);
+		transform: translateX(0%);
+	}
+
+	header ul li {
+
+		margin-bottom: 10px;
+	}
+}
+
+
+@media screen and (max-width:600px){
+	section ul.conteiner {
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.services ul li{
+
+		width: 100%;
+		margin-top: 11%;
+	}
+
+	.our-portfolio ul li{
+
+		width: 100%;
+		margin-top: 2%;
+	}
+
+	.contacts-block-1 ul{
+
+		display: flex;
+		flex-direction: column;
+	}
+
+	.contacts-block-1 ul li{
+		
+		width: 100%;
+	}
+
+	.contacts-block-1  {
+
+		margin: 0;
+	}
+	
+}
+
+@media screen and (max-width:500px){
+
+	html{
+
+		font-size: 70%;	
+	}
+
+	.about-us   ul li   {
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}	
+	
+	.about-us   ul li .right ,
+	.about-us   ul li .left {
+		
+		text-align: center;
+		margin:5% 10%;
+		width: 80%;
+	}	
+
+	.about-us   ul li .image   {
+
+		order: 1;
+		width: 100%;
+	}
+
+	.slider-back-btn, .slider-forward-btn {
+
+		width: 25px;
+	}
+
+}
